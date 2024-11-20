@@ -1,5 +1,5 @@
-bbcp
-====
+NG-DTS
+==========
 
 Securely and quickly copy data from source to target.
 
@@ -10,27 +10,27 @@ Ubuntu 12.04 LTS
 ```sh
 apt-get update
 apt-get install libssl-dev build-essential zlib1g-dev git
-git clone https://github.com/eeertekin/bbcp.git
-cd bbcp/src
+cd src
 make
-cp ../bin/amd64_linux/bbcp /bin/bbcp
-bbcp --version
+cp ../bin/amd64_linux/shao-ng-dts /bin/
+shao-ng-dts --version
 ```
 
 ### Examples
 ```sh
-    > bbcp -P 2 -w 2M -s 10 my.big.file eee@moon:/top-secret-files/
-    bbcp: Creating /top-secret-files/my.big.file
-    bbcp: At 140506 17:33:18 copy 20% complete; 89998.2 KB/s
-    bbcp: At 140506 17:33:28 copy 41% complete; 89910.4 KB/s
-    bbcp: At 140506 17:33:38 copy 61% complete; 89802.5 KB/s
-    bbcp: At 140506 17:33:48 copy 80% complete; 88499.3 KB/s
-    bbcp: At 140506 17:33:58 copy 96% complete; 84571.9 KB/s
+    > shao_ng_dts -P 2 -w 2M -s 10 my.big.file eee@moon:/top-secret-files/
+    shao_ng_dts: Creating /top-secret-files/my.big.file
+    shao_ng_dts: At 140506 17:33:18 copy 20% complete; 89998.2 KB/s
+    shao_ng_dts: At 140506 17:33:28 copy 41% complete; 89910.4 KB/s
+    shao_ng_dts: At 140506 17:33:38 copy 61% complete; 89802.5 KB/s
+    shao_ng_dts: At 140506 17:33:48 copy 80% complete; 88499.3 KB/s
+    shao_ng_dts: At 140506 17:33:58 copy 96% complete; 84571.9 KB/s
 ```
 
 ### Usage
 
-    bbcp [Options] [Inspec] Outspec
+```bash
+$    shao_ng_dts [Options] [Inspec] Outspec
 
     Options: [-a [dir]] [-b [+]bf] [-B bsz] [-c [lvl]] [-C cfn] [-D] [-d path]
          [-e] [-E csa] [-f] [-F] [-h] [-i idfn] [-I slfn] [-k] [-K]
@@ -77,8 +77,8 @@ bbcp --version
     -q lvl  specifies the quality of service for routers that support QOS.
     -r      copy subdirectories and their contents (actual files only).
     -R args enables real-time copy where args specific handling options.
-    -S cmd  command to start bbcp on the source node.
-    -T cmd  command to start bbcp on the target node.
+    -S cmd  command to start shao_ng_dts on the source node.
+    -T cmd  command to start shao_ng_dts on the target node.
     -t sec  sets the time limit for the copy to complete.
     -v      verbose mode (provides per file transfer rate).
     -V      very verbose mode (excruciating detail).
@@ -103,9 +103,4 @@ bbcp --version
     Inspec  the name of the source file(s) (also see -I).
     Outspec the name of the target file or directory (required if >1 input file.
     
-    ******* Complete details at: http://www.slac.stanford.edu/~abh/bbcp
-
-
-
-
-######Forked from http://www.slac.stanford.edu/~abh/bbcp/bbcp.git/
+```

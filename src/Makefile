@@ -73,82 +73,82 @@ AIXcc      = xlc
 AIXOPT     = -q64 $(SUN64) $(NLGR) -D_REENTRANT -DOO_STD -DAIX -g
 
 SOURCE =      \
-     bbcp.C \
-     bbcp_Args.C \
-     bbcp_BuffPool.C \
-     bbcp_C32.C \
-     bbcp_ChkSum.C \
-     bbcp_Config.C \
-     bbcp_Emsg.C \
-     bbcp_File.C \
-     bbcp_FileSpec.C \
-     bbcp_FileSystem.C \
-     bbcp_FS_Null.C \
-     bbcp_FS_Pipe.C \
-     bbcp_FS_Unix.C \
-     bbcp_IO.C \
-     bbcp_IO_Null.C \
-     bbcp_IO_Pipe.C \
-     bbcp_Link.C \
-     bbcp_LogFile.C \
-     bbcp_MD5.C \
-     bbcp_MD5_openssl.C \
-     bbcp_NetAddr.C \
-     bbcp_NetAddrInfo.C \
-     bbcp_NetLogger.C \
-     bbcp_Network.C \
-     bbcp_Node.C \
-     bbcp_ProcMon.C \
-     bbcp_ProgMon.C \
-     bbcp_Protocol.C \
-     bbcp_Pthread.C \
-     bbcp_RTCopy.C \
-     bbcp_Stream.C \
-     bbcp_System.C \
-     bbcp_Timer.C \
-     bbcp_Version.C \
-     bbcp_ZCX.C \
+     shao_ng_dts.C \
+     shao_ng_dts_Args.C \
+     shao_ng_dts_BuffPool.C \
+     shao_ng_dts_C32.C \
+     shao_ng_dts_ChkSum.C \
+     shao_ng_dts_Config.C \
+     shao_ng_dts_Emsg.C \
+     shao_ng_dts_File.C \
+     shao_ng_dts_FileSpec.C \
+     shao_ng_dts_FileSystem.C \
+     shao_ng_dts_FS_Null.C \
+     shao_ng_dts_FS_Pipe.C \
+     shao_ng_dts_FS_Unix.C \
+     shao_ng_dts_IO.C \
+     shao_ng_dts_IO_Null.C \
+     shao_ng_dts_IO_Pipe.C \
+     shao_ng_dts_Link.C \
+     shao_ng_dts_LogFile.C \
+     shao_ng_dts_MD5.C \
+     shao_ng_dts_MD5_openssl.C \
+     shao_ng_dts_NetAddr.C \
+     shao_ng_dts_NetAddrInfo.C \
+     shao_ng_dts_NetLogger.C \
+     shao_ng_dts_Network.C \
+     shao_ng_dts_Node.C \
+     shao_ng_dts_ProcMon.C \
+     shao_ng_dts_ProgMon.C \
+     shao_ng_dts_Protocol.C \
+     shao_ng_dts_Pthread.C \
+     shao_ng_dts_RTCopy.C \
+     shao_ng_dts_Stream.C \
+     shao_ng_dts_System.C \
+     shao_ng_dts_Timer.C \
+     shao_ng_dts_Version.C \
+     shao_ng_dts_ZCX.C \
      NetLogger.c
 
 OBJECT =      \
-     $(OBJDIR)/bbcp.o \
-     $(OBJDIR)/bbcp_Args.o \
-     $(OBJDIR)/bbcp_BuffPool.o \
-     $(OBJDIR)/bbcp_C32.o \
-     $(OBJDIR)/bbcp_ChkSum.o \
-     $(OBJDIR)/bbcp_Config.o \
-     $(OBJDIR)/bbcp_Emsg.o \
-     $(OBJDIR)/bbcp_File.o \
-     $(OBJDIR)/bbcp_FileSpec.o \
-     $(OBJDIR)/bbcp_FileSystem.o \
-     $(OBJDIR)/bbcp_FS_Null.o \
-     $(OBJDIR)/bbcp_FS_Pipe.o \
-     $(OBJDIR)/bbcp_FS_Unix.o \
-     $(OBJDIR)/bbcp_IO.o \
-     $(OBJDIR)/bbcp_IO_Null.o \
-     $(OBJDIR)/bbcp_IO_Pipe.o \
-     $(OBJDIR)/bbcp_Link.o \
-     $(OBJDIR)/bbcp_LogFile.o \
-     $(OBJDIR)/bbcp_MD5.o \
+     $(OBJDIR)/shao_ng_dts.o \
+     $(OBJDIR)/shao_ng_dts_Args.o \
+     $(OBJDIR)/shao_ng_dts_BuffPool.o \
+     $(OBJDIR)/shao_ng_dts_C32.o \
+     $(OBJDIR)/shao_ng_dts_ChkSum.o \
+     $(OBJDIR)/shao_ng_dts_Config.o \
+     $(OBJDIR)/shao_ng_dts_Emsg.o \
+     $(OBJDIR)/shao_ng_dts_File.o \
+     $(OBJDIR)/shao_ng_dts_FileSpec.o \
+     $(OBJDIR)/shao_ng_dts_FileSystem.o \
+     $(OBJDIR)/shao_ng_dts_FS_Null.o \
+     $(OBJDIR)/shao_ng_dts_FS_Pipe.o \
+     $(OBJDIR)/shao_ng_dts_FS_Unix.o \
+     $(OBJDIR)/shao_ng_dts_IO.o \
+     $(OBJDIR)/shao_ng_dts_IO_Null.o \
+     $(OBJDIR)/shao_ng_dts_IO_Pipe.o \
+     $(OBJDIR)/shao_ng_dts_Link.o \
+     $(OBJDIR)/shao_ng_dts_LogFile.o \
+     $(OBJDIR)/shao_ng_dts_MD5.o \
      $(OBJMD5) \
-     $(OBJDIR)/bbcp_NetLogger.o \
-     $(OBJDIR)/bbcp_NetAddr.o \
-     $(OBJDIR)/bbcp_NetAddrInfo.o \
-     $(OBJDIR)/bbcp_Network.o \
-     $(OBJDIR)/bbcp_Node.o \
-     $(OBJDIR)/bbcp_ProcMon.o \
-     $(OBJDIR)/bbcp_ProgMon.o \
-     $(OBJDIR)/bbcp_Protocol.o \
-     $(OBJDIR)/bbcp_Pthread.o \
-     $(OBJDIR)/bbcp_RTCopy.o \
-     $(OBJDIR)/bbcp_Stream.o \
-     $(OBJDIR)/bbcp_System.o \
-     $(OBJDIR)/bbcp_Timer.o \
-     $(OBJDIR)/bbcp_Version.o \
-     $(OBJDIR)/bbcp_ZCX.o \
+     $(OBJDIR)/shao_ng_dts_NetLogger.o \
+     $(OBJDIR)/shao_ng_dts_NetAddr.o \
+     $(OBJDIR)/shao_ng_dts_NetAddrInfo.o \
+     $(OBJDIR)/shao_ng_dts_Network.o \
+     $(OBJDIR)/shao_ng_dts_Node.o \
+     $(OBJDIR)/shao_ng_dts_ProcMon.o \
+     $(OBJDIR)/shao_ng_dts_ProgMon.o \
+     $(OBJDIR)/shao_ng_dts_Protocol.o \
+     $(OBJDIR)/shao_ng_dts_Pthread.o \
+     $(OBJDIR)/shao_ng_dts_RTCopy.o \
+     $(OBJDIR)/shao_ng_dts_Stream.o \
+     $(OBJDIR)/shao_ng_dts_System.o \
+     $(OBJDIR)/shao_ng_dts_Timer.o \
+     $(OBJDIR)/shao_ng_dts_Version.o \
+     $(OBJDIR)/shao_ng_dts_ZCX.o \
      $(OBJDIR)/NetLogger.o
 
-TARGET  = $(BINDIR)/bbcp
+TARGET  = $(BINDIR)/shao_ng_dts
 
 
 all:
@@ -190,8 +190,8 @@ FreeBSD:
 
 Linux:
 	@make makeLinux`/bin/uname -m` \
-	MD5HEADER=bbcp_MD5_openssl.h \
-	OBJMD5="$(OBJDIR)/bbcp_MD5_openssl.o"
+	MD5HEADER=shao_ng_dts_MD5_openssl.h \
+	OBJMD5="$(OBJDIR)/shao_ng_dts_MD5_openssl.o"
 
 makeLinuxi386:
 	@make $(MKPARMS)  \
@@ -228,8 +228,8 @@ Darwin:
 	CFLAGS="$(ENVCFLAGS) $(MACOPT) $(OPT)" \
 	INCLUDE="$(ENVINCLUDE)" \
 	LIBS="$(MACLIBS)" \
-	MD5HEADER=bbcp_MD5_openssl.h \
-	OBJMD5="$(OBJDIR)/bbcp_MD5_openssl.o"
+	MD5HEADER=shao_ng_dts_MD5_openssl.h \
+	OBJMD5="$(OBJDIR)/shao_ng_dts_MD5_openssl.o"
 
 
 UNICOS/mp:
@@ -270,190 +270,190 @@ $(TARGET): $(OBJECT)
 	@echo Creating executable $(TARGET) ...
 	@$(CC) $(OBJECT) $(LIBS) -o $(TARGET)
 
-$(OBJDIR)/bbcp.o: bbcp.C bbcp_Args.h bbcp_Config.h bbcp_Debug.h bbcp_FileSpec.h \
-                  bbcp_LogFile.h bbcp_Node.h bbcp_Protocol.h bbcp_System.h \
-                  bbcp_Headers.h
-	@echo Compiling bbcp.C
+$(OBJDIR)/shao_ng_dts.o: shao_ng_dts.C shao_ng_dts_Args.h shao_ng_dts_Config.h shao_ng_dts_Debug.h shao_ng_dts_FileSpec.h \
+                  shao_ng_dts_LogFile.h shao_ng_dts_Node.h shao_ng_dts_Protocol.h shao_ng_dts_System.h \
+                  shao_ng_dts_Headers.h
+	@echo Compiling shao_ng_dts.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_Args.o: bbcp_Args.C bbcp_Args.h bbcp_Config.h bbcp_Stream.h
-	@echo Compiling bbcp_Args.C
+$(OBJDIR)/shao_ng_dts_Args.o: shao_ng_dts_Args.C shao_ng_dts_Args.h shao_ng_dts_Config.h shao_ng_dts_Stream.h
+	@echo Compiling shao_ng_dts_Args.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_BuffPool.o: bbcp_BuffPool.C bbcp_BuffPool.h bbcp_Debug.h \
-                           bbcp_Emsg.h bbcp_Pthread.h bbcp_Headers.h
-	@echo Compiling bbcp_BuffPool.C
+$(OBJDIR)/shao_ng_dts_BuffPool.o: shao_ng_dts_BuffPool.C shao_ng_dts_BuffPool.h shao_ng_dts_Debug.h \
+                           shao_ng_dts_Emsg.h shao_ng_dts_Pthread.h shao_ng_dts_Headers.h
+	@echo Compiling shao_ng_dts_BuffPool.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_C32.o: bbcp_C32.C bbcp_C32.h bbcp_ChkSum.h bbcp_Endian.h
-	@echo Compiling bbcp_C32.C
+$(OBJDIR)/shao_ng_dts_C32.o: shao_ng_dts_C32.C shao_ng_dts_C32.h shao_ng_dts_ChkSum.h shao_ng_dts_Endian.h
+	@echo Compiling shao_ng_dts_C32.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_ChkSum.o: bbcp_ChkSum.C bbcp_ChkSum.h bbcp_Endian.h \
-                         bbcp_A32.h bbcp_A32_zlib.h bbcp_C32.h bbcp_MD5.h $(MD5HEADER)
-	@echo Compiling bbcp_ChkSum.C
+$(OBJDIR)/shao_ng_dts_ChkSum.o: shao_ng_dts_ChkSum.C shao_ng_dts_ChkSum.h shao_ng_dts_Endian.h \
+                         shao_ng_dts_A32.h shao_ng_dts_A32_zlib.h shao_ng_dts_C32.h shao_ng_dts_MD5.h $(MD5HEADER)
+	@echo Compiling shao_ng_dts_ChkSum.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_Config.o: bbcp_Config.C bbcp_Config.h bbcp_Args.h \
-                         bbcp_Debug.h bbcp_Emsg.h bbcp_FileSpec.h bbcp_LogFile.h \
-                         bbcp_NetLogger.h bbcp_Network.h bbcp_Platform.h \
-                         bbcp_Stream.h bbcp_System.h bbcp_Version.h \
-                         bbcp_Headers.h  bbcp_Pthread.h
-	@echo Compiling bbcp_Config.C
+$(OBJDIR)/shao_ng_dts_Config.o: shao_ng_dts_Config.C shao_ng_dts_Config.h shao_ng_dts_Args.h \
+                         shao_ng_dts_Debug.h shao_ng_dts_Emsg.h shao_ng_dts_FileSpec.h shao_ng_dts_LogFile.h \
+                         shao_ng_dts_NetLogger.h shao_ng_dts_Network.h shao_ng_dts_Platform.h \
+                         shao_ng_dts_Stream.h shao_ng_dts_System.h shao_ng_dts_Version.h \
+                         shao_ng_dts_Headers.h  shao_ng_dts_Pthread.h
+	@echo Compiling shao_ng_dts_Config.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_Emsg.o: bbcp_Emsg.C bbcp_Emsg.h bbcp_Debug.h bbcp_Platform.h \
-                       bbcp_Headers.h
-	@echo Compiling bbcp_Emsg.C
+$(OBJDIR)/shao_ng_dts_Emsg.o: shao_ng_dts_Emsg.C shao_ng_dts_Emsg.h shao_ng_dts_Debug.h shao_ng_dts_Platform.h \
+                       shao_ng_dts_Headers.h
+	@echo Compiling shao_ng_dts_Emsg.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_File.o: bbcp_File.C bbcp_File.h bbcp_IO.h bbcp_BuffPool.h \
-                       bbcp_Config.h bbcp_Debug.h bbcp_Emsg.h bbcp_Pthread.h \
-                       bbcp_Platform.h bbcp_Headers.h bbcp_ChkSum.h \
-                       bbcp_RTCopy.h
-	@echo Compiling bbcp_File.C
+$(OBJDIR)/shao_ng_dts_File.o: shao_ng_dts_File.C shao_ng_dts_File.h shao_ng_dts_IO.h shao_ng_dts_BuffPool.h \
+                       shao_ng_dts_Config.h shao_ng_dts_Debug.h shao_ng_dts_Emsg.h shao_ng_dts_Pthread.h \
+                       shao_ng_dts_Platform.h shao_ng_dts_Headers.h shao_ng_dts_ChkSum.h \
+                       shao_ng_dts_RTCopy.h
+	@echo Compiling shao_ng_dts_File.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_FileSpec.o: bbcp_FileSpec.C bbcp_FileSpec.h bbcp_Config.h \
-                           bbcp_Emsg.h bbcp_FileSystem.h bbcp_FS_Unix.h \
-                           bbcp_Pthread.h
-	@echo Compiling bbcp_FileSpec.C
+$(OBJDIR)/shao_ng_dts_FileSpec.o: shao_ng_dts_FileSpec.C shao_ng_dts_FileSpec.h shao_ng_dts_Config.h \
+                           shao_ng_dts_Emsg.h shao_ng_dts_FileSystem.h shao_ng_dts_FS_Unix.h \
+                           shao_ng_dts_Pthread.h
+	@echo Compiling shao_ng_dts_FileSpec.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_FileSystem.o: bbcp_FileSystem.C bbcp_FileSystem.h \
-                             bbcp_FS_Null.h bbcp_FS_Pipe.h bbcp_FS_Unix.h
-	@echo Compiling bbcp_FileSystem.C
+$(OBJDIR)/shao_ng_dts_FileSystem.o: shao_ng_dts_FileSystem.C shao_ng_dts_FileSystem.h \
+                             shao_ng_dts_FS_Null.h shao_ng_dts_FS_Pipe.h shao_ng_dts_FS_Unix.h
+	@echo Compiling shao_ng_dts_FileSystem.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_FS_Null.o: bbcp_FS_Null.C bbcp_FS_Null.h \
-                          bbcp_IO_Null.h bbcp_FileSystem.h bbcp_System.h \
-                          bbcp_Platform.h bbcp_Pthread.h
-	@echo Compiling bbcp_FS_Null.C
+$(OBJDIR)/shao_ng_dts_FS_Null.o: shao_ng_dts_FS_Null.C shao_ng_dts_FS_Null.h \
+                          shao_ng_dts_IO_Null.h shao_ng_dts_FileSystem.h shao_ng_dts_System.h \
+                          shao_ng_dts_Platform.h shao_ng_dts_Pthread.h
+	@echo Compiling shao_ng_dts_FS_Null.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_FS_Pipe.o: bbcp_FS_Pipe.C  bbcp_FS_Pipe.h    bbcp_FS_Unix.h\
-                          bbcp_IO_Pipe.h  bbcp_FileSystem.h bbcp_System.h \
-                          bbcp_Platform.h bbcp_Pthread.h    bbcp_Emsg.h
-	@echo Compiling bbcp_FS_Pipe.C
+$(OBJDIR)/shao_ng_dts_FS_Pipe.o: shao_ng_dts_FS_Pipe.C  shao_ng_dts_FS_Pipe.h    shao_ng_dts_FS_Unix.h\
+                          shao_ng_dts_IO_Pipe.h  shao_ng_dts_FileSystem.h shao_ng_dts_System.h \
+                          shao_ng_dts_Platform.h shao_ng_dts_Pthread.h    shao_ng_dts_Emsg.h
+	@echo Compiling shao_ng_dts_FS_Pipe.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_FS_Unix.o: bbcp_FS_Unix.C bbcp_FS_Unix.h bbcp_FileSystem.h \
-                          bbcp_Config.h  bbcp_IO.h      bbcp_IO_Null.h \
-                          bbcp_Platform.h bbcp_System.h bbcp_Pthread.h
-	@echo Compiling bbcp_FS_Unix.C
+$(OBJDIR)/shao_ng_dts_FS_Unix.o: shao_ng_dts_FS_Unix.C shao_ng_dts_FS_Unix.h shao_ng_dts_FileSystem.h \
+                          shao_ng_dts_Config.h  shao_ng_dts_IO.h      shao_ng_dts_IO_Null.h \
+                          shao_ng_dts_Platform.h shao_ng_dts_System.h shao_ng_dts_Pthread.h
+	@echo Compiling shao_ng_dts_FS_Unix.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_IO.o: bbcp_IO.C bbcp_IO.h bbcp_NetLogger.h bbcp_Timer.h
-	@echo Compiling bbcp_IO.C
+$(OBJDIR)/shao_ng_dts_IO.o: shao_ng_dts_IO.C shao_ng_dts_IO.h shao_ng_dts_NetLogger.h shao_ng_dts_Timer.h
+	@echo Compiling shao_ng_dts_IO.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_IO_Null.o: bbcp_IO_Null.C bbcp_IO_Null.h bbcp_IO.h
-	@echo Compiling bbcp_IO_Null.C
+$(OBJDIR)/shao_ng_dts_IO_Null.o: shao_ng_dts_IO_Null.C shao_ng_dts_IO_Null.h shao_ng_dts_IO.h
+	@echo Compiling shao_ng_dts_IO_Null.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_IO_Pipe.o: bbcp_IO_Pipe.C bbcp_IO_Pipe.h bbcp_IO.h \
-                          bbcp_System.h
-	@echo Compiling bbcp_IO_Pipe.C
+$(OBJDIR)/shao_ng_dts_IO_Pipe.o: shao_ng_dts_IO_Pipe.C shao_ng_dts_IO_Pipe.h shao_ng_dts_IO.h \
+                          shao_ng_dts_System.h
+	@echo Compiling shao_ng_dts_IO_Pipe.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_Link.o:  bbcp_Link.C bbcp_Link.h bbcp_File.h bbcp_IO.h \
-                        bbcp_BuffPool.h bbcp_ChkSum.h  bbcp_Config.h \
-                        bbcp_Debug.h bbcp_Emsg.h \
-                        bbcp_Link.h bbcp_Network.h bbcp_Platform.h \
-                        bbcp_Timer.h
-	@echo Compiling bbcp_Link.C
+$(OBJDIR)/shao_ng_dts_Link.o:  shao_ng_dts_Link.C shao_ng_dts_Link.h shao_ng_dts_File.h shao_ng_dts_IO.h \
+                        shao_ng_dts_BuffPool.h shao_ng_dts_ChkSum.h  shao_ng_dts_Config.h \
+                        shao_ng_dts_Debug.h shao_ng_dts_Emsg.h \
+                        shao_ng_dts_Link.h shao_ng_dts_Network.h shao_ng_dts_Platform.h \
+                        shao_ng_dts_Timer.h
+	@echo Compiling shao_ng_dts_Link.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_LogFile.o:  bbcp_LogFile.C bbcp_LogFile.h bbcp_Pthread.h \
-                           bbcp_Debug.h bbcp_Emsg.h bbcp_Platform.h \
-                           bbcp_Headers.h bbcp_Timer.h
-	@echo Compiling bbcp_LogFile.C
+$(OBJDIR)/shao_ng_dts_LogFile.o:  shao_ng_dts_LogFile.C shao_ng_dts_LogFile.h shao_ng_dts_Pthread.h \
+                           shao_ng_dts_Debug.h shao_ng_dts_Emsg.h shao_ng_dts_Platform.h \
+                           shao_ng_dts_Headers.h shao_ng_dts_Timer.h
+	@echo Compiling shao_ng_dts_LogFile.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_MD5.o: bbcp_MD5.C bbcp_MD5.h bbcp_ChkSum.h bbcp_Endian.h
-	@echo Compiling bbcp_MD5.C
+$(OBJDIR)/shao_ng_dts_MD5.o: shao_ng_dts_MD5.C shao_ng_dts_MD5.h shao_ng_dts_ChkSum.h shao_ng_dts_Endian.h
+	@echo Compiling shao_ng_dts_MD5.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_MD5_openssl.o: bbcp_MD5_openssl.C bbcp_MD5_openssl.h bbcp_ChkSum.h bbcp_Endian.h
-	@echo Compiling bbcp_MD5_openssl.C
+$(OBJDIR)/shao_ng_dts_MD5_openssl.o: shao_ng_dts_MD5_openssl.C shao_ng_dts_MD5_openssl.h shao_ng_dts_ChkSum.h shao_ng_dts_Endian.h
+	@echo Compiling shao_ng_dts_MD5_openssl.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_NetLogger.o:  bbcp_NetLogger.C bbcp_NetLogger.h NetLogger.h
-	@echo Compiling bbcp_Netlogger.c
+$(OBJDIR)/shao_ng_dts_NetLogger.o:  shao_ng_dts_NetLogger.C shao_ng_dts_NetLogger.h NetLogger.h
+	@echo Compiling shao_ng_dts_Netlogger.c
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_NetAddr.o:  bbcp_NetAddr.C bbcp_NetAddr.h bbcp_NetAddrInfo.h \
-                           bbcp_NetSockAddr.h
-	@echo Compiling bbcp_NetAddr.C
+$(OBJDIR)/shao_ng_dts_NetAddr.o:  shao_ng_dts_NetAddr.C shao_ng_dts_NetAddr.h shao_ng_dts_NetAddrInfo.h \
+                           shao_ng_dts_NetSockAddr.h
+	@echo Compiling shao_ng_dts_NetAddr.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_NetAddrInfo.o:  bbcp_NetAddrInfo.C bbcp_NetAddrInfo.h \
-                               bbcp_NetSockAddr.h
-	@echo Compiling bbcp_NetAddrInfo.C
+$(OBJDIR)/shao_ng_dts_NetAddrInfo.o:  shao_ng_dts_NetAddrInfo.C shao_ng_dts_NetAddrInfo.h \
+                               shao_ng_dts_NetSockAddr.h
+	@echo Compiling shao_ng_dts_NetAddrInfo.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_Network.o:  bbcp_Network.C bbcp_Network.h bbcp_Debug.h \
-                           bbcp_Emsg.h bbcp_Link.h bbcp_Pthread.h \
-                           bbcp_NetAddr.h bbcp_NetAddrInfo.h  bbcp_Platform.h
-	@echo Compiling bbcp_Network.C
+$(OBJDIR)/shao_ng_dts_Network.o:  shao_ng_dts_Network.C shao_ng_dts_Network.h shao_ng_dts_Debug.h \
+                           shao_ng_dts_Emsg.h shao_ng_dts_Link.h shao_ng_dts_Pthread.h \
+                           shao_ng_dts_NetAddr.h shao_ng_dts_NetAddrInfo.h  shao_ng_dts_Platform.h
+	@echo Compiling shao_ng_dts_Network.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_Node.o: bbcp_Node.C bbcp_Node.h bbcp_Config.h bbcp_Emsg.h \
-                       bbcp_Debug.h bbcp_File.h bbcp_FileSpec.h bbcp_Link.h \
-                       bbcp_BuffPool.h bbcp_Network.h bbcp_Protocol.h \
-                       bbcp_ProcMon.h bbcp_ProgMon.h bbcp_Stream.h \
-                       bbcp_System.h bbcp_ZCX.h bbcp_Headers.h
-	@echo Compiling bbcp_Node.C
+$(OBJDIR)/shao_ng_dts_Node.o: shao_ng_dts_Node.C shao_ng_dts_Node.h shao_ng_dts_Config.h shao_ng_dts_Emsg.h \
+                       shao_ng_dts_Debug.h shao_ng_dts_File.h shao_ng_dts_FileSpec.h shao_ng_dts_Link.h \
+                       shao_ng_dts_BuffPool.h shao_ng_dts_Network.h shao_ng_dts_Protocol.h \
+                       shao_ng_dts_ProcMon.h shao_ng_dts_ProgMon.h shao_ng_dts_Stream.h \
+                       shao_ng_dts_System.h shao_ng_dts_ZCX.h shao_ng_dts_Headers.h
+	@echo Compiling shao_ng_dts_Node.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_ProcMon.o: bbcp_ProcMon.C bbcp_ProcMon.h bbcp_Debug.h \
-                          bbcp_Emsg.h bbcp_File.h bbcp_Pthread.h bbcp_Headers.h
-	@echo Compiling bbcp_ProcMon.C
+$(OBJDIR)/shao_ng_dts_ProcMon.o: shao_ng_dts_ProcMon.C shao_ng_dts_ProcMon.h shao_ng_dts_Debug.h \
+                          shao_ng_dts_Emsg.h shao_ng_dts_File.h shao_ng_dts_Pthread.h shao_ng_dts_Headers.h
+	@echo Compiling shao_ng_dts_ProcMon.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_ProgMon.o: bbcp_ProgMon.C bbcp_ProgMon.h bbcp_Config.h \
-                          bbcp_Debug.h bbcp_File.h bbcp_Headers.h \
-                          bbcp_Pthread.h bbcp_Timer.h bbcp_ZCX.h
-	@echo Compiling bbcp_ProgMon.C
+$(OBJDIR)/shao_ng_dts_ProgMon.o: shao_ng_dts_ProgMon.C shao_ng_dts_ProgMon.h shao_ng_dts_Config.h \
+                          shao_ng_dts_Debug.h shao_ng_dts_File.h shao_ng_dts_Headers.h \
+                          shao_ng_dts_Pthread.h shao_ng_dts_Timer.h shao_ng_dts_ZCX.h
+	@echo Compiling shao_ng_dts_ProgMon.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_Protocol.o: bbcp_Protocol.C bbcp_Protocol.h bbcp_Config.h  \
-                           bbcp_Node.h bbcp_FileSpec.h bbcp_FileSystem.h  \
-                           bbcp_IO.h bbcp_File.h bbcp_Link.h bbcp_Debug.h \
-                           bbcp_Pthread.h bbcp_Stream.h bbcp_Emsg.h \
-                           bbcp_Network.h bbcp_Version.h bbcp_Headers.h
-	@echo Compiling bbcp_Protocol.C
+$(OBJDIR)/shao_ng_dts_Protocol.o: shao_ng_dts_Protocol.C shao_ng_dts_Protocol.h shao_ng_dts_Config.h  \
+                           shao_ng_dts_Node.h shao_ng_dts_FileSpec.h shao_ng_dts_FileSystem.h  \
+                           shao_ng_dts_IO.h shao_ng_dts_File.h shao_ng_dts_Link.h shao_ng_dts_Debug.h \
+                           shao_ng_dts_Pthread.h shao_ng_dts_Stream.h shao_ng_dts_Emsg.h \
+                           shao_ng_dts_Network.h shao_ng_dts_Version.h shao_ng_dts_Headers.h
+	@echo Compiling shao_ng_dts_Protocol.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_Pthread.o: bbcp_Pthread.C bbcp_Pthread.h
-	@echo Compiling bbcp_Pthread.C
+$(OBJDIR)/shao_ng_dts_Pthread.o: shao_ng_dts_Pthread.C shao_ng_dts_Pthread.h
+	@echo Compiling shao_ng_dts_Pthread.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_RTCopy.o: bbcp_RTCopy.C bbcp_RTCopy.h bbcp_Config.h \
-                         bbcp_Emsg.h bbcp_FileSystem.h bbcp_Pthread.h
-	@echo Compiling bbcp_RTCopy.C
+$(OBJDIR)/shao_ng_dts_RTCopy.o: shao_ng_dts_RTCopy.C shao_ng_dts_RTCopy.h shao_ng_dts_Config.h \
+                         shao_ng_dts_Emsg.h shao_ng_dts_FileSystem.h shao_ng_dts_Pthread.h
+	@echo Compiling shao_ng_dts_RTCopy.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_Stream.o: bbcp_Stream.C bbcp_Stream.h bbcp_Config.h bbcp_Debug.h \
-                         bbcp_Emsg.h bbcp_System.h
-	@echo Compiling bbcp_Stream.C
+$(OBJDIR)/shao_ng_dts_Stream.o: shao_ng_dts_Stream.C shao_ng_dts_Stream.h shao_ng_dts_Config.h shao_ng_dts_Debug.h \
+                         shao_ng_dts_Emsg.h shao_ng_dts_System.h
+	@echo Compiling shao_ng_dts_Stream.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_System.o: bbcp_System.C bbcp_System.h bbcp_Config.h \
-                         bbcp_Debug.h bbcp_Emsg.h bbcp_Platform.h bbcp_Pthread.h
-	@echo Compiling bbcp_System.C
+$(OBJDIR)/shao_ng_dts_System.o: shao_ng_dts_System.C shao_ng_dts_System.h shao_ng_dts_Config.h \
+                         shao_ng_dts_Debug.h shao_ng_dts_Emsg.h shao_ng_dts_Platform.h shao_ng_dts_Pthread.h
+	@echo Compiling shao_ng_dts_System.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_Timer.o: bbcp_Timer.C bbcp_Timer.h
-	@echo Compiling bbcp_Timer.C
+$(OBJDIR)/shao_ng_dts_Timer.o: shao_ng_dts_Timer.C shao_ng_dts_Timer.h
+	@echo Compiling shao_ng_dts_Timer.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_Version.o: bbcp_Version.C bbcp_Version.h bbcp_Config.h bbcp_Emsg.h
-	@echo Compiling bbcp_Version.C
+$(OBJDIR)/shao_ng_dts_Version.o: shao_ng_dts_Version.C shao_ng_dts_Version.h shao_ng_dts_Config.h shao_ng_dts_Emsg.h
+	@echo Compiling shao_ng_dts_Version.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
-$(OBJDIR)/bbcp_ZCX.o: bbcp_ZCX.C bbcp_ZCX.h bbcp_BuffPool.h bbcp_Emsg.h
-	@echo Compiling bbcp_ZCX.C
+$(OBJDIR)/shao_ng_dts_ZCX.o: shao_ng_dts_ZCX.C shao_ng_dts_ZCX.h shao_ng_dts_BuffPool.h shao_ng_dts_Emsg.h
+	@echo Compiling shao_ng_dts_ZCX.C
 	@$(CC) -c $(CFLAGS) $(INCLUDE) $(*F).C -o $(OBJDIR)/$(*F).o
 
 $(OBJDIR)/NetLogger.o: NetLogger.c NetLogger.h
