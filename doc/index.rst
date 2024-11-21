@@ -10,6 +10,9 @@ Welcome to SHAO_NG_DTS's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   installation.rst
+   usage.rst
+
 
 
 Indices and tables
